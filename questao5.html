@@ -1,0 +1,13 @@
+<script>
+    var primeiroNome = prompt ("Insira o seu nome")
+    var notaUm = prompt ("primeira nota")
+    notaUm = parseInt (notaUm)
+    var notaDois = prompt ("Segunda nota")
+    notaDois = parseInt (notaDois)
+    var notaTres = prompt ("Terceira nota")
+    notaTres = parseInt (notaTres)
+
+    mediaGeral = (notaUm+notaDois+notaTres)/3
+
+    document.write(`aluno: ${primeiroNome} <br> Sua média geral e/ou anual é: ${mediaGeral.toFixed(1) }`)
+</script>

@@ -1,0 +1,15 @@
+<script>
+  var principal = Number(
+    prompt("Insira e/ou informa o valor que deseja ser depositado")
+  );
+  var tempo = Number(
+    prompt("insira a quantidade de meses esse dinheiro irá passar depositado.")
+  );
+  var taxaJuro = 0.7;
+  var taxaJuro = taxaJuro / 100;
+  var juros = principal * tempo * taxaJuro;
+  var montante = principal * (1 + taxaJuro * tempo);
+  document.write(
+    `O seu dinheiro teve um rendimento de: R$${montante.toFixed(2)}`
+  );
+</script>

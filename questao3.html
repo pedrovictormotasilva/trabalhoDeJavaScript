@@ -1,0 +1,12 @@
+<script>
+  var distanciaEmMetros = prompt("Insira a distancia");
+  distanciaEmMetros = parseFloat(distanciaEmMetros);
+  var quantidadeEmLitros = prompt("Insira a quantidade em litros");
+  quantidadeEmLitros = parseFloat(quantidadeEmLitros);
+
+  document.write(
+    `O seu carro tem a média de ${
+      distanciaEmMetros / quantidadeEmLitros.toFixed(2)
+    } Metros por litro.`
+  );
+</script>

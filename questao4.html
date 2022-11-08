@@ -1,0 +1,14 @@
+<script>
+  var primeiroNome = prompt("insira o seu primeiro nome");
+
+  var salario = Number(prompt("Insira o seu salario"));
+  var vendas = prompt("insira suas vendas em R$");
+  vendas = parseInt(vendas);
+  porcentagem = 15;
+
+  document.write(
+    `o seu nome é: ${primeiroNome} <br> o seu salario é de: R$ ${salario} <br> e você recebeu R$ ${
+      (porcentagem * vendas) / 100
+    } de comissão`
+  );
+</script>
